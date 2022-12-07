@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+  --fg: #FBF5F3;
+  --bg: #0F0F0F;
+  --pink: #4C1A57;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+button, a {
+  cursor: pointer;
+  outline: none;
+}
