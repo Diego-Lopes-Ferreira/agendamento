@@ -1,31 +1,31 @@
 /* Utilitites */
 
-.font-normal {
+.font_normal {
   font-family: 'Noto Sans Display', sans-serif;
 }
 
-.font-highlight {
+.font_highlight {
   font-family: 'Noto Sans Mono', monospace;
 }
 
 /* # FONT SIZES */
-.font-100 {
+.font_100 {
   font-size: 0.5rem;
 }
 
-.font-200 {
+.font_200 {
   font-size: 0.75rem;
 }
 
-.font-300 {
+.font_300 {
   font-size: 1rem;
 }
 
-.font-400 {
+.font_400 {
   font-size: 1.5rem;
 }
 
-.font-500 {
+.font_500 {
   font-size: 2rem;
 }
 
