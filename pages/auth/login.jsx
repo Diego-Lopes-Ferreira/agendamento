@@ -3,6 +3,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import globals from "styles/globals.module.css";
+import { form } from "styles/blocks/form.module.css";
+import cssutils from "styles/utility.module.css";
+import clsx from "clsx";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -28,20 +31,19 @@ export default function LoginPage() {
   return (
     <div className={globals.container}>
       <h1>LOGIN</h1>
-      <div>
+      <div className={form}>
         <input
-          className={globals.inputLine}
           type="text"
           value={login}
           onChange={(e) => set_login(e.target.value)}
         />
         <input
-          className={globals.inputLine}
           type={showPassword ? "text" : "password"}
           value={password}
           onChange={(e) => set_password(e.target.value)}
         />
         <p
+          className={clsx(cssutils.font_highlight, cssutils.font_200)}
           onClick={() => {
             set_showPassword(!showPassword);
           }}
