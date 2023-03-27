@@ -51,7 +51,7 @@ this page.
 To handle the database I'm using `prisma`. In the `prisma` folder you get the
 `schema.prisma`, which is where the configurations for the database are.
 
-When using this library, to actually create the database, you run: 
+When using this library, to actually create the database, you run:
 ```
 yarn run prisma generate
 ```
@@ -73,5 +73,4 @@ very specific things.
 
 
 
-
-
+.
